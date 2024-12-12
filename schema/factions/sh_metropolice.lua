@@ -2,7 +2,7 @@
 FACTION.name = "Civil Protection"
 FACTION.description = "A hidden Civil Protection Unit."
 FACTION.color = Color(50, 100, 150)
-FACTION.pay = 15
+FACTION.pay = 14
 FACTION.models = {"models/police.mdl"}
 FACTION.weapons = {"ix_stunstick"}
 FACTION.isDefault = false
