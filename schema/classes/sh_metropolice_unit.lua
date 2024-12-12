@@ -1,5 +1,5 @@
 CLASS.name = "Metropolice Unit"
-CLASS.faction = FACTION_MPF
+CLASS.faction = FACTION_CP
 
 function CLASS:CanSwitchTo(client)
 	local name = client:Name()
