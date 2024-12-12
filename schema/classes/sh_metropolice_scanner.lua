@@ -1,6 +1,6 @@
-CLASS.name = "Metropolice Scanner"
-CLASS.description = "A metropolice scanner, it utilises Combine technology."
-CLASS.faction = FACTION_MPF
+CLASS.name = "City Scanner"
+CLASS.description = "A city scanner, it utilises Combine technology."
+CLASS.faction = FACTION_CP
 
 function CLASS:CanSwitchTo(client)
 	return Schema:IsCombineRank(client:Name(), "SCN") or Schema:IsCombineRank(client:Name(), "SHIELD")
