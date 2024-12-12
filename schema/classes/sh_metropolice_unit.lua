@@ -1,4 +1,4 @@
-CLASS.name = "Metropolice Unit"
+CLASS.name = "Civil Protection Unit"
 CLASS.faction = FACTION_CP
 
 function CLASS:CanSwitchTo(client)
