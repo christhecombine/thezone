@@ -1,6 +1,6 @@
 
-FACTION.name = "Metropolice Force"
-FACTION.description = "A metropolice unit working as Civil Protection."
+FACTION.name = "Civil Protection"
+FACTION.description = "A hidden Civil Protection Unit."
 FACTION.color = Color(50, 100, 150)
 FACTION.pay = 10
 FACTION.models = {"models/police.mdl"}
@@ -50,4 +50,4 @@ function FACTION:OnNameChanged(client, oldValue, value)
 	end
 end
 
-FACTION_MPF = FACTION.index
+FACTION_CP = FACTION.index
