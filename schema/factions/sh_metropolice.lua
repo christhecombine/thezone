@@ -1,6 +1,6 @@
 
 FACTION.name = "Civil Protection"
-FACTION.description = "A hidden Civil Protection Unit."
+FACTION.description = "Someone who has joined the Civil Protection Agency of the Combine."
 FACTION.color = Color(50, 100, 150)
 FACTION.pay = 15
 FACTION.models = {"models/police.mdl"}
@@ -17,7 +17,7 @@ function FACTION:OnCharacterCreated(client, character)
 end
 
 function FACTION:GetDefaultName(client)
-	return "MPF-RCT." .. Schema:ZeroNumber(math.random(1, 99999), 5), true
+	return ":CP:" .. Schema:ZeroNumber(math.random(1, 99999), 5), true
 end
 
 function FACTION:OnTransferred(character)
